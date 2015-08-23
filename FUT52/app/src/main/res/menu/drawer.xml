@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/championson"
+            android:title="Inicio / Mi Equipo"
+            />
+        <item
+            android:id="@+id/navigation_teams"
+            android:icon="@drawable/iconoalineaon"
+            android:title="Equipos" />
+        <item
+            android:id="@+id/navigation_table"
+            android:icon="@drawable/otroon"
+            android:title="Tabla general" />
+
+
+        <item
+            android:id="@+id/navigation_result"
+            android:icon="@drawable/finalizadoson"
+            android:title="Resultados" />
+
+
+        <item
+                    android:id="@+id/navigation_gallery"
+                    android:icon="@drawable/bundeson"
+                    android:title="Galerias" />
+
+        <item
+                    android:id="@+id/navigation_news"
+                    android:icon="@drawable/envivoon"
+                    android:title="Noticias"
+
+            />
+
+    </group>
+
+
+    <item android:title="Configuracion">
+        <menu>
+            <item
+                android:id="@+id/navigation_configuration"
+                android:icon="@drawable/config"
+                android:title="Configura tu perfil" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

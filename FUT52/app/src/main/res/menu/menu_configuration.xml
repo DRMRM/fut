@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gigigo.demofut52.activities.Configuration_Team">
+
+    <item android:id="@+id/action_save" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_done"/>
+
+    <item
+        android:icon="@drawable/mr_ic_settings_dark"
+        app:showAsAction="ifRoom"
+        android:title="prueba">
+
+        <menu>
+
+            <item
+                android:id="@+id/color_p"
+                android:title="Rosa"
+                android:icon="@drawable/pink"/>
+            <item
+                android:id="@+id/color_t"
+                android:title="Agua"
+                android:icon="@drawable/teal"/>
+
+
+
+            <item
+                android:id="@+id/color_b"
+                android:title="Azul"
+                android:icon="@drawable/blue"/>
+
+            <item
+                android:id="@+id/color_y"
+                android:title="Amarillo"
+                android:icon="@drawable/yellow"/>
+
+
+
+            <item
+                android:id="@+id/color_g"
+                android:title="Verde"
+                android:icon="@drawable/green"/>
+
+            <item
+                android:id="@+id/color_r"
+                android:title="Rojo"
+                android:icon="@drawable/red"/>
+        </menu>
+
+        </item>
+
+
+
+</menu>

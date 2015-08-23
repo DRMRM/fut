@@ -1,0 +1,90 @@
+<resources>
+
+
+    <style name="DesignDef" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--item name="android:background">@layout/drawer_header</item-->
+    </style>
+
+
+    <style name="DesignRed" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary_dark_r</item>
+        <item name="colorPrimary">@color/primary_r</item>
+        <item name="colorAccent">@color/acent_r</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!--item name="android:background">@layout/drawer_header</item-->
+    </style>
+
+
+
+    <style name="DesignPink" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary_dark_p</item>
+        <item name="colorPrimary">@color/primary_p</item>
+        <item name="colorAccent">@color/acent_p</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!--item name="android:background">@layout/drawer_header</item-->
+    </style>
+
+    <style name="DesignAqua" parent="Theme.AppCompat.Light.NoActionBar"
+        >
+        <item name="colorPrimaryDark">@color/primary_dark_a</item>
+        <item name="colorPrimary">@color/primary_a</item>
+        <item name="colorAccent">@color/acent_a</item>
+        <item name="android:windowBackground">@color/background</item>
+
+
+        <!--item name="android:background">@layout/drawer_header</item-->
+    </style>
+
+
+    <style name="DesignBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary_dark_b</item>
+        <item name="colorPrimary">@color/primary_b</item>
+        <item name="colorAccent">@color/acent_b</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!--item name="android:background">@layout/drawer_header</item-->
+    </style>
+
+
+    <style name="DesignYellow" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary_dark_y</item>
+        <item name="colorPrimary">@color/primary_y</item>
+        <item name="colorAccent">@color/acent_y</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!--item name="android:background">@layout/drawer_header</item-->
+    </style>
+
+
+    <style name="DesignGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary_dark_g</item>
+        <item name="colorPrimary">@color/primary_g</item>
+        <item name="colorAccent">@color/acent_g</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!--item name="android:background">@layout/drawer_header</item-->
+    </style>
+
+
+
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="division">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#B6B6B6</item>
+    </style>
+
+
+</resources>
