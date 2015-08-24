@@ -29,7 +29,6 @@
             app:menu="@menu/drawer"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
-            android:background="@drawable/back_1"
             />
 
 
